@@ -1,0 +1,44 @@
+$font-family-roboto: "Roboto",
+sans-serif;
+
+
+$font-family--default: $font-family-roboto;
+
+$white: #ffffff;
+$black: #000000;
+$gray: #c7c7c7;
+$red: #d24d57;
+$blue: #3a539b;
+$light-blue: #009bde;
+$yellow: #f7ca18;
+$green: #36d7b7;
+$Jacksons-Purple:#1A237E;
+$outer-space:#263238;
+$Silver-Chalice:#9E9E9E;
+$Fern:#66BB6A;
+
+
+
+
+
+$primary-color: $white;
+$background-color--header:$Jacksons-Purple;
+$background-color--side-nav:$outer-space;
+$short-overview__label--text-color:$Silver-Chalice;
+$side-nav__img--border:$Fern;
+
+
+
+//Heading font size vairables
+$heading-line-height: 28px !default;
+$head1-font-size: 26px !default;
+$head2-font-size: $head1-font-size - 4px !default;
+$head3-font-size: $head1-font-size - 8px !default;
+
+
+
+//Breakpoints
+$sm-device: 425px;
+$md-device: 768px;
+$lg-device: 992px;
+$xl-device: 1440px;

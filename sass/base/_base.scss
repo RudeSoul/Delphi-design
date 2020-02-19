@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $primary-color;
+
+}
+
+ul,
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,86 @@
+.side-nav {
+    width: 220px;
+    height: 3274.2px; //remove this height later
+    background: $background-color--side-nav;
+    padding-top: 25.2px;
+}
+
+.short-overview--margin-top {
+    margin-top: 17.2px;
+
+    .short-overview__icon {
+        margin-left: 120.7px;
+    }
+}
+
+.rectangle--bar-l {
+    margin-top: 27px;
+    width: 220px;
+}
+
+.side-nav__menu {
+    margin-left: 9px;
+    margin-top: 26px;
+
+    @include m(placeholder) {
+        margin-left: 13px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+
+        a {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 22px;
+
+            color: $primary-color;
+            mix-blend-mode: normal;
+            opacity: 0.7;
+
+        }
+
+    }
+
+    @include m(placeholder-active) {
+        margin-left: 10px;
+
+    }
+}
+
+.oval {
+    margin-left: 5px;
+    margin-top: 11px;
+    margin-bottom: 14px;
+    width: 14px;
+    height: 14px;
+    background-image: url(../../../images/side-nav/Oval.png);
+
+}
+
+.oval--active {
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-image: url(../../../images/side-nav/Oval--active.png);
+    background-size: cover;
+
+}
+
+.rectangle--bar-m {
+    width: 163px;
+    margin-left: 41px;
+    margin-top: 9px;
+}
+
+.rectangle--bar-m-x {
+    margin-top: 0px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-9 {
+    margin-top: 9px;
+}
