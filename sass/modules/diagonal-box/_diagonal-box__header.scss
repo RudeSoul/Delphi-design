@@ -1,0 +1,26 @@
+.add-module__header {
+    padding-top: 24px;
+    padding-left: 24px;
+    align-items: center;
+
+    h1 {
+        margin: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: $text-color--black;
+
+    }
+
+    .close-icon {
+        width: 24px;
+        margin-left: 166px;
+
+        img {
+            object-fit: cover;
+        }
+
+    }
+}
