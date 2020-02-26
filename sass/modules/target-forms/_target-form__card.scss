@@ -376,6 +376,8 @@
                 }
 
                 .profile__name {
+                    flex-direction: column;
+
                     .name {
                         font-style: normal;
                         font-weight: normal;
