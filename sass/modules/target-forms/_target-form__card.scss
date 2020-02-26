@@ -164,6 +164,8 @@
     }
 
     .right-card {
+        padding-bottom: 42px;
+
         .target-form__right-card-heading {
             margin-left: 30px;
             margin-top: 24px;
@@ -365,6 +367,8 @@
 
         .comment {
             .profile {
+                margin-top: 7px;
+
                 .profile__image {
                     height: 38px;
                     width: 38px;
@@ -377,6 +381,7 @@
 
                 .profile__name {
                     flex-direction: column;
+                    margin-left: 10px;
 
                     .name {
                         font-style: normal;
@@ -386,12 +391,179 @@
 
                         color: $text-color--black
                     }
+
+                    .description {
+                        width: 392px;
+                        margin-top: 8px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 12px;
+                        line-height: 18px;
+                        color: #707478;
+
+                    }
                 }
             }
 
 
         }
+
+        .rectangle {
+            width: 392px;
+            margin-top: 10px;
+        }
+
+        .comment--last {
+            margin-top: 10px;
+        }
     }
+
+    .review-form__location {
+        margin-top: 32px;
+        margin-left: 26px;
+
+        .location__header {
+            padding-top: 12px;
+            padding-bottom: 14px;
+            width: 441px;
+            background: #F9FAFC;
+            box-shadow: 0px -1px 0px #EFF2F7, 0px 1px 0px #EFF2F7;
+
+            .header__label {
+                width: 54px;
+                align-self: center;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+
+                color: #9FAAB7;
+
+            }
+
+            .label--1 {
+                margin-left: 16px;
+            }
+
+            .label--2 {
+                margin-left: 236px;
+            }
+        }
+
+        .location__body {
+            margin-right: 20px;
+            padding-top: 14px;
+            padding-bottom: 18px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+
+            background: $primary-color;
+            box-shadow: inset 0px -1px 0px #EFF2F7;
+
+            color: #223741;
+
+        }
+
+        .location__body--1 {
+            margin-left: 16px;
+            width: 289px;
+        }
+
+
+    }
+
+    .right-card__footer {
+        margin-top: 20px;
+        margin-left: 26px;
+
+        .short-overview {
+            width: 200px;
+
+            .short-overview__icon {
+                margin-top: 34px;
+            }
+
+            .short-overview__label {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+
+                letter-spacing: 0.4px;
+                color: #616161;
+            }
+
+            .short-overview__placeholder {
+                margin-top: 15px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+
+                letter-spacing: 0.25px;
+                color: #212121;
+            }
+
+            .rectangle {
+                margin-top: 6px;
+                width: 204px;
+                margin-left: 0px;
+
+            }
+
+
+        }
+
+        .right-card__footer--btn {
+
+            margin-top: 28px;
+
+            .rect-btn {
+                margin-left: 8px;
+
+
+            }
+
+            .blaze-orange--btn {
+                background: $blaze-orange;
+
+                .value {
+                    margin-left: 26px;
+                    margin-right: 26px;
+                }
+            }
+
+            .french-rose--btn {
+                background: $french-rose;
+
+                img {
+
+                    margin-left: 18px;
+                    vertical-align: middle;
+                }
+
+                .value {
+                    margin-left: 8px;
+                    margin-right: 18px;
+                }
+            }
+
+            .blue-ribbion--btn {
+                background: $blue-ribbion;
+
+                .value {
+                    margin-left: 18px;
+                    margin-right: 18px;
+                }
+            }
+
+        }
+
+    }
+
+
 
 
 
