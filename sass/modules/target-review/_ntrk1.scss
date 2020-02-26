@@ -1,0 +1,201 @@
+.card__ntrk1 {
+    margin-top: 43px;
+}
+
+.ic-lunch__ntrk1 {
+    width: 53px;
+}
+
+.content-1 {
+    padding-top: 22px;
+}
+
+.ic-lunch__UniProt-Acc {
+    width: 74.2px;
+    margin-left: 51px;
+
+    .ic-lunch__icon {
+        margin-left: 53.32px;
+    }
+}
+
+.Nurix-Alias {
+    width: 108px;
+    margin-left: 51.8px;
+
+    .short-overview {
+        margin: 0;
+
+        @include e(frame) {
+            flex-direction: column;
+            padding: 0;
+            padding-top: 0px;
+        }
+
+        @include e(label) {
+            line-height: 16px;
+            letter-spacing: 0.4px;
+
+            color: $short-overview__body-label--text-color;
+        }
+
+        @include e(placeholder) {
+            margin-top: 5px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+            margin-bottom: 8px;
+
+            color: $short-overview__body-placeholder--text-color;
+        }
+
+        .border-bottom {
+            width: 108px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+.uniprot {
+    width: 268px;
+    margin-top: 26px;
+}
+
+.uniport__name {
+    margin-top: 5px;
+
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+
+    color: $text-color--black;
+
+    opacity: 0.4;
+}
+
+.uniport__content {
+    margin-top: 6px;
+    margin-bottom: 5px;
+
+    font-weight: bold;
+    font-size: 13.9px;
+    line-height: 20px;
+
+    letter-spacing: 0.25px;
+
+    color: $text-color--black;
+}
+
+.therapeutic-area {
+    width: 335px;
+    margin-top: 17px;
+
+    .short-overview {
+        margin: 0;
+
+        @include e(frame) {
+            flex-direction: column;
+            padding: 0;
+            padding-top: 0px;
+        }
+
+        @include e(label) {
+            line-height: 16px;
+            letter-spacing: 0.4px;
+
+            color: $short-overview__body-label--text-color;
+        }
+
+        @include e(placeholder) {
+            margin-top: 5px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+            margin-bottom: 8px;
+
+            color: $short-overview__body-placeholder--text-color;
+        }
+
+        @include e(icon) {
+            height: 16px;
+            width: 16px;
+            margin-top: 25px;
+            margin-left: 217.66px;
+        }
+
+        .border-bottom {
+            width: 335px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+.ctm {
+    margin-top: 21px;
+
+    .short-overview__icon {
+        display: none;
+    }
+}
+
+.indications {
+    width: 348px;
+
+    .btn-rounded {
+        background: rgba($coral-red, 0.87);
+    }
+
+    .btn-rounded--disable {
+        background: rgba($coral-red, 0.38);
+    }
+
+    .border-bottom {
+        width: 341.97px;
+        margin-top: 12px;
+    }
+}
+
+.target-category {
+    width: 343px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+    .short-overview {
+        margin: 0;
+
+        @include e(frame) {
+            flex-direction: column;
+            padding: 0;
+            padding-top: 0px;
+        }
+
+        @include e(label) {
+            line-height: 16px;
+            letter-spacing: 0.4px;
+
+            color: $short-overview__body-label--text-color;
+        }
+
+        @include e(placeholder) {
+            margin-top: 5px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+            margin-bottom: 8px;
+
+            color: $short-overview__body-placeholder--text-color;
+        }
+
+        @include e(icon) {
+            height: 16px;
+            width: 16px;
+            margin-top: 25px;
+            margin-left: 217.66px;
+        }
+
+        .border-bottom {
+            width: 335px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

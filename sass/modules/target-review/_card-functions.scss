@@ -1,0 +1,35 @@
+.card__function {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+
+
+    h2 {
+        margin-bottom: 10px;
+
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 20px;
+        /* identical to box height */
+
+
+        color: $text-color--black;
+
+    }
+
+    p {
+        height: 148px;
+        overflow: scroll;
+        margin-right: 34.36px;
+        text-align: justify;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+
+
+        color: #707478;
+    }
+}

@@ -1,0 +1,28 @@
+.screening-plan {
+    width: 2158px;
+    margin: 0 auto;
+    background-color: $body-color;
+
+    .side-nav {
+        height: 1068px;
+    }
+}
+
+.screening__heading {
+    margin-top: 26px;
+    margin-left: 26px;
+    width: fit-content;
+
+    h1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        color: $text-color--black;
+    }
+}
+
+.screening__mainbody {
+    flex-direction: column;
+    flex-wrap: wrap;
+}

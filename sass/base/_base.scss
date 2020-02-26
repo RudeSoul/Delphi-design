@@ -11,8 +11,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: $primary-color;
+    font-family: $font-family--default;
 
 }
 
@@ -35,4 +34,43 @@ p {
 .flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+span {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $primary-color;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $silver;
+    border-radius: 18px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $silver;
 }

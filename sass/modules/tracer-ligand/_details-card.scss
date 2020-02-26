@@ -1,0 +1,221 @@
+.side-nav {
+    height: 2068.2px;
+}
+
+.details-card {
+    .details__heading {
+        .tracer-header {
+            margin-left: 25px;
+            width: 60px;
+            background: transparent;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: $text-color--black;
+            margin-top: 48px;
+
+        }
+
+        .card-btn--top {
+            width: 230px;
+            align-content: center;
+            margin-top: 40px;
+
+            img {
+                width: 18px;
+                height: 18px;
+                margin-left: 16px;
+            }
+
+            .value {
+                margin: 0;
+                margin-left: 8px;
+                width: 172px;
+            }
+
+        }
+
+        .details__checkbox {
+            transform: scale(1.5);
+            height: 14px;
+            width: 14px;
+            // background: #80868B;
+            border: 2px solid #80868B;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            -o-appearance: none;
+
+        }
+
+        .checkbox-value {
+
+            margin-top: 50px;
+            margin-left: 22px;
+        }
+
+        .checkbox--label {
+            margin-left: 4px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.4px;
+
+            color: $text-color--black;
+        }
+    }
+
+    .details-table {
+        width: 2052px;
+        background: #F9FAFC;
+        box-shadow: 0px -1px 0px #EFF2F7, 0px 1px 0px #EFF2F7;
+
+        th {
+            min-width: 100px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+
+            color: #9FAAB7;
+        }
+
+
+
+        td {
+            min-width: 100px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #223741;
+            padding: 20px 8px 8px 8px;
+        }
+
+        .td--first {
+            vertical-align: middle;
+
+            img {
+                margin-left: 20px;
+                margin-right: 34px;
+            }
+        }
+
+        .td--second {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #223741;
+
+
+        }
+
+        .structural-biology__label {
+            color: $wave-orange;
+        }
+
+        .table-row--2 {
+            color: $coral;
+        }
+
+        .table-row--3 {
+            color: $Fern;
+        }
+
+
+
+        .row-inside-table {
+            div {
+                margin-top: 10px;
+                margin-bottom: 16px;
+
+                border-bottom: 1px solid #EFF2F7;
+            }
+        }
+
+        .profile {
+            .profile__image {
+                width: 20px;
+                height: 20px;
+                overflow: hidden;
+
+                img {
+                    object-fit: cover;
+                }
+            }
+
+            .profile__name {
+                a {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 0.25px;
+
+                    color: #000000;
+                }
+            }
+        }
+
+        .ELN {
+            text-align: left;
+        }
+
+        .btn-on-table {
+            max-width: 142px;
+            text-align: left;
+        }
+
+        .btn-rounded {
+            background: transparent;
+        }
+
+        .btn-color--electric-violet {
+            background: $electric-violet;
+        }
+
+        .btn-color--blaze-orange {
+            background: $blaze-orange;
+        }
+
+        .btn-color--turquoise {
+            width: 75px;
+            background: $turquoise;
+        }
+
+        .table-addicon {
+            margin-top: 11px;
+            background: transparent;
+            transform: translateY(4px);
+
+
+        }
+
+        .table--14 {
+            max-width: 152px;
+            text-align: left;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border: 1px solid #EFF2F7;
+            box-sizing: border-box;
+            border-radius: 3px;
+
+            img {
+                text-align: left;
+                margin-left: 10px;
+            }
+        }
+
+        .table--15 {
+            img {
+                margin-left: 20px;
+            }
+        }
+
+    }
+}

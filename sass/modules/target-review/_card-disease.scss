@@ -1,0 +1,363 @@
+.card__disease {
+    background: $primary-color;
+    box-shadow: 0px 2px 6px rgba($black, 0.102874);
+    border-radius: 3px;
+    margin-top: 20px;
+    padding-top: 0px;
+
+
+    .leftbar {
+        background-color: $primary-color;
+        width: 299px;
+        border-radius: 3px 0px 3px 3px;
+        background: #FAFAFA;
+
+        .leftbar__heading {
+            margin-left: 20px;
+            padding-top: 19px;
+            padding-bottom: 17px;
+            width: 260px;
+
+            .value {
+                width: 175.97px;
+
+                h3 {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 20px;
+
+
+                    color: $text-color--black;
+                }
+            }
+
+            .addicon {
+                width: 24px;
+                height: 24px;
+                margin-left: 10.61px;
+                background: url(../../../images/main-body/ic_add_circle_24pxG.png);
+                background-repeat: no-repeat;
+                background-position: center;
+
+            }
+
+
+
+
+        }
+
+        .title {
+            margin-left: 20px;
+            // width: 196px;
+            margin-top: 14px;
+            margin-bottom: 14px;
+            margin-left: 24px;
+            align-self: center;
+            background-color: $primary-color;
+
+
+            font-style: normal;
+            font-weight: normal;
+
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.4px;
+
+
+        }
+
+        .title1 {
+            color: #EC407A;
+            font-weight: bold;
+
+        }
+
+        .leftbar-list {
+            margin-top: 5px;
+            background: #FAFAFA;
+            box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.14), 0px -1px 0px #DEDEDE;
+        }
+
+        .image {
+            margin-top: 12px;
+            width: 24px;
+            height: 24px;
+            background: url(../../../images/main-body/ic_arrow_drop_down_24px.png);
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+
+        .options {
+            margin-bottom: 333px;
+            margin-left: 20px;
+            background-color: $primary-color;
+
+
+
+            .btn-rounded {
+                background: transparent;
+                margin-bottom: 13.99px;
+
+
+                span {
+                    margin: 5px 26px 6px 10px;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 0.4px;
+                    color: $text-color--black;
+                }
+            }
+
+            .btn-rounded--bg-blue {
+                background: #304FFE;
+
+                width: 140px;
+            }
+        }
+    }
+
+
+    .rightbar {
+        width: 558px;
+        background: #FFFFFF;
+        box-shadow: -1px 0px 0px #E2E2E2;
+        border-radius: 0px 3px 3px 0px;
+        margin-left: 0;
+
+        .heading {
+            justify-content: space-between;
+
+            h2 {
+                margin-top: 23px;
+                margin-left: 33.52px;
+                width: 91.41px;
+
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+
+                color: #223741;
+
+            }
+
+            .icons {
+                margin-left: 354px;
+                margin-top: 23px;
+
+                .filter {
+                    width: 24px;
+                    height: 24px;
+                    align-self: center;
+
+
+                }
+
+                .add {
+                    align-self: center;
+                    width: 24px;
+                    height: 24px;
+                    margin-left: 19px;
+                }
+            }
+        }
+
+
+
+        .rightbar__card {
+            padding-bottom: 18px;
+            width: 506.2px;
+            background: $primary-color;
+            border: 1px solid #304FFE;
+            box-sizing: border-box;
+            border-radius: 3px;
+            margin-bottom: 10px;
+
+            margin-left: 34px;
+
+            .topleft {
+                width: 87px;
+                background: #EC407A;
+
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 16px;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+
+                color: $primary-color;
+
+
+            }
+        }
+
+        .checkbox__content {
+            margin-left: 10px;
+
+            .input {
+                width: 20px;
+                height: 20px;
+            }
+
+            p {
+                width: 420px;
+
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+
+                letter-spacing: 0.25px;
+
+                color: $text-color--black;
+            }
+
+            .image {
+                width: 14px;
+                height: 14px;
+                background: url(../../../images/main-body/ic_launch_24pxA.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .label {
+                margin-left: 30px;
+                margin-top: 5px;
+                width: 100.43px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+
+
+                color: #9FAAB7;
+            }
+
+            .btn-rounded {
+                margin-top: 4px;
+                background: #80858B;
+
+            }
+
+            .review {
+                a {
+                    margin-left: 4px;
+                    margin-right: 4px;
+
+                    text-transform: uppercase;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 11px;
+                    line-height: 16px;
+
+                    letter-spacing: 1px;
+
+                    color: $primary-color;
+                }
+            }
+
+
+        }
+
+        .line {
+            margin-left: 38.48px;
+            margin-top: 16px;
+        }
+
+        .btn-rounded {
+            margin-top: 15px;
+            margin-left: 36px;
+            background: $primary-color;
+        }
+
+        .second {
+            margin-left: 6px;
+
+            span {
+                visibility: hidden;
+            }
+        }
+
+        .btn-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.4px;
+
+            color: $text-color--black;
+        }
+
+        .addtag {
+            float: right;
+            width: 70px;
+            margin-top: 17px;
+            margin-right: 185px;
+
+            .image {
+                float: left;
+                height: 20px;
+                width: 20px;
+
+                img {
+                    object-fit: cover;
+                }
+            }
+
+
+            .tag-text {
+                float: right;
+                width: 44px;
+                margin-left: 6px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+
+
+                text-transform: capitalize;
+
+                color: $text-color--black;
+            }
+
+
+        }
+
+        .rightbar__footer {
+            padding-left: 35px;
+            padding-top: 15px;
+
+            h3 {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: 0.4px;
+
+                color: rgba(0, 0, 0, 0.4);
+            }
+
+            .btn-rounded {
+                margin: 0;
+                margin-top: 7px;
+            }
+
+            .btn--pink {
+                margin-top: 21px;
+                margin-bottom: 30px;
+                width: 134px;
+
+                background: #EC407A;
+
+            }
+        }
+
+
+
+    }
+}

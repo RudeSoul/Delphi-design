@@ -1,0 +1,47 @@
+.project-status {
+    width: 214px;
+
+    margin-left: 452px;
+    margin-top: 32px;
+    margin-right: 21px;
+
+    .short-overview {
+        margin: 0;
+
+        @include e(frame) {
+            flex-direction: column;
+            padding: 0;
+            padding-top: 0px;
+        }
+
+        @include e(label) {
+            line-height: 16px;
+            letter-spacing: 0.4px;
+
+            color: $short-overview__body-label--text-color;
+            mix-blend-mode: normal;
+        }
+
+        @include e(placeholder) {
+            margin-top: 5px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+
+            color: $short-overview__body-placeholder--text-color;
+        }
+
+        @include e(icon) {
+            display: inline-table;
+            width: 16px;
+            height: 16px;
+            margin-top: 25px;
+            margin-left: 113.77px;
+        }
+
+        .border-bottom {
+            width: 214px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

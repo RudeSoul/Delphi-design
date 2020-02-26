@@ -1,0 +1,83 @@
+.card__go-biological {
+    margin-top: 20px;
+    padding-top: 0px;
+
+    .leftbar {
+        width: 262px;
+        padding-bottom: 60px;
+        background: #FAFAFA;
+        border-radius: 3px 0px 3px 3px;
+
+
+        .leftbar-heading {
+
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-top: 19px;
+
+
+            h3 {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 20px;
+
+
+                color: $text-color--black;
+            }
+        }
+
+        .leftbar-list {
+            background: #FAFAFA;
+            box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.14), 0px -1px 0px #DEDEDE;
+        }
+
+        .leftbar-list--active {
+            background: $primary-color;
+
+        }
+
+        .title {
+            width: 196px;
+            margin-top: 14px;
+            margin-bottom: 14px;
+            margin-left: 24px;
+            align-self: center;
+
+            font-style: normal;
+            font-weight: normal;
+
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.4px;
+
+
+        }
+
+        .title1 {
+            color: #EC407A;
+            font-weight: bold;
+
+        }
+
+        .image {
+            margin-top: 12px;
+            width: 24px;
+            height: 24px;
+            background: url(../../../images/main-body/ic_arrow_drop_down_24pxSIDE.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .rightbar {
+        width: 588px;
+        background: $primary-color;
+        box-shadow: -1px 0px 0px #E2E2E2;
+        border-radius: 0px 3px 3px 0px;
+        padding-top: 29px;
+        padding-left: 29px;
+
+
+    }
+}

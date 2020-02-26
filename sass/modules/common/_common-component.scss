@@ -4,6 +4,31 @@
     width: auto;
 }
 
+.profile {
+    order: 0;
+    align-self: center;
+    margin-right: 16px;
+
+    @include e(name) {
+        align-self: center;
+        margin-left: 8px;
+        order: 1;
+
+        a {
+            font-family: $font-family--default;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: right;
+
+            color: $primary-color;
+
+        }
+    }
+
+}
+
 .short-overview {
     margin-left: 14px;
     margin-right: 16px;
@@ -46,5 +71,301 @@
     .border-bottom {
         width: 190px;
     }
+
+}
+
+.card {
+    background: $primary-color;
+    box-shadow: 0px 2px 6px rgba($black, 0.102874);
+    border-radius: 3px;
+    padding-left: 20px;
+
+}
+
+.card--s {
+    width: 199px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.card--m {
+    width: 379px;
+
+}
+
+.card--l {
+    width: 480px;
+}
+
+.card--xl {
+    width: 870px;
+}
+
+.ic-lunch {
+    flex-direction: column;
+
+    @include e(label) {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+
+        color: $text-color--black;
+        opacity: 0.4;
+        // order: 0;
+    }
+
+    @include e(placeholder) {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 3.32px;
+        margin-top: 6px;
+
+        letter-spacing: 0.25px;
+
+        color: $text-color--ic-lunch;
+        order: 0;
+
+    }
+
+    @include e(icon) {
+        background: transparent;
+        order: 1;
+        height: 13px;
+        width: 13px;
+        margin-left: 40px;
+        margin-top: -19px;
+        margin-bottom: 6px;
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+}
+
+.short-overview__indication {
+    .short-overview {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.btn {
+    background: $primary-color;
+    border: 1px solid $heather;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.btn-rounded {
+    background: rgba(transparent, 1);
+    border: 1px solid $btn-border-color;
+    border-radius: 11.5px;
+
+    span {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.4px;
+
+        color: rgba($white, 0.87);
+        margin: 5px 0px 5px 10px;
+    }
+
+    .image {
+        margin: 0;
+        margin-right: 5.78px;
+
+    }
+}
+
+.btn-rounded--disable {
+    background: rgba(transparent, 1);
+}
+
+.circular-indicator {
+    height: 12px;
+    width: 12px;
+    border-radius: 45px;
+
+}
+
+.circular-indicator--violet {
+    background-color: $electric-violet;
+}
+
+.circular-indicator--b-orange {
+    background-color: $blaze-orange;
+}
+
+.circular-indicator--turquoise {
+    background-color: $turquoise;
+}
+
+.circular-indicator--wave-orange {
+    background-color: $wave-orange;
+}
+
+.circular-indicator--coral {
+    background-color: $coral;
+}
+
+.circular-indicator--fern {
+    background-color: $Fern;
+}
+
+.curcular-indicator--selective-yellow {
+    background-color: $selective-yellow;
+}
+
+
+
+.checkbox__content {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .input {
+        width: 20px;
+        height: 20px;
+        background-image: url(../../../images/main-body/ic_check_box_outline_blank_24px.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .checked {
+        background-image: url(../../../images/main-body/ic_check_box_24px.png);
+
+
+    }
+
+    p {
+        width: 780px;
+        margin-left: 10px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #304FFE;
+
+        img {
+            width: 12px;
+            height: 12px;
+        }
+    }
+}
+
+.line {
+    width: 418px;
+    height: 1px;
+
+
+    background: #BDBDBD;
+    opacity: 0.5;
+}
+
+.rect-btn {
+    padding: 11px 0px;
+
+    text-align: center;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+
+    .value {
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 0.214286px;
+        text-transform: uppercase;
+
+        color: $primary-color;
+
+    }
+
+
+}
+
+.lunchicon__content {
+    margin-bottom: 30px;
+
+
+    .lunchicon {
+        width: 18px;
+        height: 18px;
+        margin-top: 11px;
+
+        background: url(../../../images/main-body/ic_launch_24pxA.png);
+        background-size: cover;
+
+    }
+
+
+    .discription {
+        .message {
+            width: 496px;
+            margin-left: 16px;
+            margin-top: 10px;
+            align-self: center;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+
+            letter-spacing: 0.25px;
+
+            color: #000000;
+        }
+
+        .label {
+            margin-top: 5px;
+            margin-left: 16px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+
+
+            color: #9FAAB7;
+        }
+
+    }
+}
+
+.table {
+    table {
+        border-collapse: collapse;
+        border-spacing: 10px;
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        text-align: center;
+        padding: 8px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    tr {
+
+        border: 1px solid #ddd;
+    }
+
+    td {
+        padding: 2px;
+
+        margin-left: 10px;
+        margin-right: 10px;
+
+        vertical-align: top;
+    }
+
 
 }

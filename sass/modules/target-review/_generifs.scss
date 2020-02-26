@@ -1,0 +1,54 @@
+.card__GeneRIFs {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+
+.GeneRIFs__header {
+
+    .header-left {
+        width: 73px;
+
+        h2 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 20px;
+
+
+            color: $text-color--black;
+        }
+
+    }
+
+    .header-right {
+        width: 165px;
+        margin-left: 606px;
+        justify-content: space-between;
+
+        .selected {
+            width: 103px;
+
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 21px;
+
+            color: #333333;
+        }
+
+        .delete-icon {
+            width: 24px;
+            margin-left: 24px;
+
+            img {
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.GeneRIFs__all-content {
+    height: 255px;
+    overflow: scroll;
+}

@@ -1,0 +1,98 @@
+.smallcard {
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 22px;
+
+
+    h2 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .lunchicon__content {
+        margin-top: 20px;
+
+        .discription {
+            width: 102px;
+            flex-direction: column;
+        }
+    }
+
+
+
+
+}
+
+.smallcard--first {
+    margin-left: 0px;
+}
+
+.smallcard__profile {
+    .smallcard__header {
+
+        h2 {
+            width: 99px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 20px;
+
+
+            color: $text-color--black;
+
+        }
+
+        .image {
+            width: 18px;
+            height: 18px;
+            background: url(../../../images/main-body/ic_add_circle_24pxG.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            margin-left: 41px;
+
+            span {
+                visibility: hidden;
+            }
+        }
+    }
+
+    .smallcard__profiles {
+        margin-top: 7px;
+        height: 300px;
+        overflow: scroll;
+
+        .profile {
+            margin: 0;
+            margin-top: 20px;
+
+            .profile__name {
+                flex-direction: column;
+
+                a {
+
+                    color: #000000;
+                    line-height: 20px;
+                }
+
+                .position {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-align: left;
+
+                    color: #9FAAB7;
+
+                }
+
+            }
+        }
+
+        .profile--first {
+            margin-top: 10px;
+        }
+    }
+}

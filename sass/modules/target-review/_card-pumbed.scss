@@ -1,0 +1,67 @@
+.card__pubmed {
+    margin-top: 21px;
+    padding: 0;
+
+    .rectangle {
+        margin-top: 12px;
+        width: 379px;
+    }
+}
+
+.pubmed__header {
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+
+    h2 {
+        width: fit-content;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+
+        letter-spacing: 0.15px;
+
+        color: $text-color--black;
+        order: 0;
+    }
+
+    img {
+        height: 24px;
+        width: 24px;
+        margin-right: 20px;
+        margin-top: -4px;
+        order: 1;
+    }
+}
+
+.card__pubmed {
+    padding-bottom: 125px;
+}
+
+.pubmed__all-content {
+    height: 255px;
+    overflow: scroll;
+}
+
+.pubmed__content {
+    padding-left: 20px;
+    justify-content: space-between;
+
+    img {
+        margin-top: 20px;
+        width: 20px;
+        height: 21px;
+    }
+
+    p {
+        margin-top: 17px;
+        width: 300px;
+        font-size: 14px;
+        line-height: 17px;
+
+        letter-spacing: 0.25px;
+
+        color: $text-color--pubmed;
+    }
+}
