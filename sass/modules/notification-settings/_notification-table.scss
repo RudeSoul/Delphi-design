@@ -32,13 +32,13 @@
             letter-spacing: 0.5px;
             text-transform: uppercase;
 
-            color: #616161;
+            color: $dove-gray;
         }
     }
 
     .notification-table--row {
         background: $primary-color;
-        box-shadow: 0px -1px 0px #EEEEEE;
+        box-shadow: 0px -1px 0px $gallery;
         margin-left: 20px;
         margin-right: 20px;
 
@@ -47,7 +47,7 @@
             font-weight: normal;
             font-size: 16px;
             line-height: 19px;
-            color: #223741;
+            color: $plantation;
 
 
         }
@@ -59,7 +59,7 @@
         }
 
         .checked {
-            background: #FAFAFA;
+            background: $alabaster;
         }
 
         .notification-table__cell {

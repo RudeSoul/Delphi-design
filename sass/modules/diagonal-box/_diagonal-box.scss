@@ -1,6 +1,6 @@
 .add-module {
     width: 410px;
     background: $primary-color;
-    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2), 0px 3px 3px rgba(0, 0, 0, 0.12), 0px 3px 4px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 1px 8px rgba($text-color--black, 0.2), 0px 3px 3px rgba($text-color--black, 0.12), 0px 3px 4px rgba($text-color--black, 0.14);
     padding-bottom: 24px;
 }

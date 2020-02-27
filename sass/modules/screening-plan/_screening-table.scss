@@ -11,8 +11,8 @@
     }
 
     .table-heading {
-        background: #F9FAFC;
-        box-shadow: 0px -1px 0px #EFF2F7, 0px 1px 0px #EFF2F7;
+        background: $catsill-white;
+        box-shadow: 0px -1px 0px $catsill-white, 0px 1px 0px $catsill-white;
         padding-top: 14px;
         padding-bottom: 14px;
     }
@@ -24,12 +24,12 @@
         line-height: 14px;
         margin-left: 14px;
         margin-right: 14px;
-        color: #9FAAB7;
+        color: $gull-gray;
     }
 
     .table-body {
         background: $primary-color;
-        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.102874);
+        box-shadow: 0px 2px 6px rgba($text-color--black, 0.102874);
         border-radius: 3px;
     }
 
@@ -44,7 +44,7 @@
         font-size: 16px;
         line-height: 19px;
 
-        color: #223741;
+        color: $plantation;
 
     }
 
@@ -58,7 +58,7 @@
     }
 
     .rectangle {
-        border: 1px solid #EFF2F7;
+        border: 1px solid $catsill-white;
     }
 
 

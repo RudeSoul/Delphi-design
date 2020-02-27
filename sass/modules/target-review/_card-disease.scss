@@ -10,7 +10,7 @@
         background-color: $primary-color;
         width: 299px;
         border-radius: 3px 0px 3px 3px;
-        background: #FAFAFA;
+        background: $alabaster;
 
         .leftbar__heading {
             margin-left: 20px;
@@ -68,15 +68,15 @@
         }
 
         .title1 {
-            color: #EC407A;
+            color: $french-rose;
             font-weight: bold;
 
         }
 
         .leftbar-list {
             margin-top: 5px;
-            background: #FAFAFA;
-            box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.14), 0px -1px 0px #DEDEDE;
+            background: $alabaster;
+            box-shadow: 0px 1px 0px rgba($text-color--black, 0.14), 0px -1px 0px $alto;
         }
 
         .image {
@@ -111,7 +111,7 @@
             }
 
             .btn-rounded--bg-blue {
-                background: #304FFE;
+                background: $blue-ribbion;
 
                 width: 140px;
             }
@@ -121,8 +121,8 @@
 
     .rightbar {
         width: 558px;
-        background: #FFFFFF;
-        box-shadow: -1px 0px 0px #E2E2E2;
+        background: $primary-color;
+        box-shadow: -1px 0px 0px $mercury;
         border-radius: 0px 3px 3px 0px;
         margin-left: 0;
 
@@ -139,7 +139,7 @@
                 font-size: 16px;
                 line-height: 19px;
 
-                color: #223741;
+                color: $plantation;
 
             }
 
@@ -170,7 +170,7 @@
             padding-bottom: 18px;
             width: 506.2px;
             background: $primary-color;
-            border: 1px solid #304FFE;
+            border: 1px solid $blue-ribbion;
             box-sizing: border-box;
             border-radius: 3px;
             margin-bottom: 10px;
@@ -179,7 +179,7 @@
 
             .topleft {
                 width: 87px;
-                background: #EC407A;
+                background: $french-rose;
 
                 font-style: normal;
                 font-weight: 500;
@@ -234,12 +234,12 @@
                 line-height: 14px;
 
 
-                color: #9FAAB7;
+                color: $gull-gray;
             }
 
             .btn-rounded {
                 margin-top: 4px;
-                background: #80858B;
+                background: $oslo-gray;
 
             }
 
@@ -339,7 +339,7 @@
                 line-height: 16px;
                 letter-spacing: 0.4px;
 
-                color: rgba(0, 0, 0, 0.4);
+                color: rgba($text-color--black, 0.4);
             }
 
             .btn-rounded {
@@ -352,7 +352,7 @@
                 margin-bottom: 30px;
                 width: 134px;
 
-                background: #EC407A;
+                background: $french-rose;
 
             }
         }

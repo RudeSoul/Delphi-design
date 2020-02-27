@@ -8,15 +8,15 @@
         width: 262px;
         // padding-left: 24px;
 
-        background: #FAFAFA;
-        box-shadow: 1px 0px 0px #E0E0E0;
+        background: $alabaster;
+        box-shadow: 1px 0px 0px $alto;
         border-radius: 3px 0px 3px 3px;
     }
 
     .right-card {
         width: 488px;
-        background: #FFFFFF;
-        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.102874);
+        background: $primary-color;
+        box-shadow: 0px 2px 6px rgba($text-color--black, 0.102874);
         border-radius: 3px;
     }
 
@@ -55,9 +55,9 @@
 
     .left-card {
         .left-card__menu {
-            background: #FAFAFA;
-            border-top: 1px solid #E0E0E0;
-            border-bottom: 1px solid #E0E0E0;
+            background: $alabaster;
+            border-top: 1px solid $alto;
+            border-bottom: 1px solid $alto;
 
         }
 
@@ -76,7 +76,7 @@
                 line-height: 16px;
                 letter-spacing: 0.4px;
 
-                color: #9E9D9D;
+                color: $dusty-gray;
 
             }
 
@@ -117,7 +117,7 @@
         }
 
         .menu-items--active {
-            background: #FFFFFF;
+            background: $primary-color;
 
             h3 {
                 color: $french-rose;
@@ -178,7 +178,7 @@
                 font-weight: bold;
                 font-size: 16px;
                 line-height: 19px;
-                color: #223741;
+                color: $plantation;
 
             }
 
@@ -203,7 +203,7 @@
                     line-height: 14px;
                     letter-spacing: 0.4px;
 
-                    color: #304FFE;
+                    color: $blue-ribbion;
                 }
             }
 
@@ -218,7 +218,7 @@
                 margin-top: 24px;
                 width: 401px;
                 height: 8px;
-                background: #EFF2F7;
+                background: $catsill-white;
                 border-radius: 13px;
             }
 
@@ -290,7 +290,7 @@
                 font-size: 12px;
                 line-height: 16px;
                 letter-spacing: 0.4px;
-                color: #616161;
+                color: $dove-gray;
             }
 
 
@@ -400,7 +400,7 @@
                         font-weight: normal;
                         font-size: 12px;
                         line-height: 18px;
-                        color: #707478;
+                        color: $rolling-ston;
 
                     }
                 }
@@ -427,8 +427,8 @@
             padding-top: 12px;
             padding-bottom: 14px;
             width: 441px;
-            background: #F9FAFC;
-            box-shadow: 0px -1px 0px #EFF2F7, 0px 1px 0px #EFF2F7;
+            background: $catsill-white;
+            box-shadow: 0px -1px 0px $catsill-white, 0px 1px 0px $catsill-white;
 
             .header__label {
                 width: 54px;
@@ -438,7 +438,7 @@
                 font-size: 12px;
                 line-height: 14px;
 
-                color: #9FAAB7;
+                color: $gull-gray;
 
             }
 
@@ -461,9 +461,9 @@
             line-height: 16px;
 
             background: $primary-color;
-            box-shadow: inset 0px -1px 0px #EFF2F7;
+            box-shadow: inset 0px -1px 0px $catsill-white;
 
-            color: #223741;
+            color: $plantation;
 
         }
 
@@ -493,7 +493,7 @@
                 line-height: 16px;
 
                 letter-spacing: 0.4px;
-                color: #616161;
+                color: $dove-gray;
             }
 
             .short-overview__placeholder {
@@ -504,7 +504,7 @@
                 line-height: 20px;
 
                 letter-spacing: 0.25px;
-                color: #212121;
+                color: $mine-shaft;
             }
 
             .rectangle {

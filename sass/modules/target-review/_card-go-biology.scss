@@ -5,7 +5,7 @@
     .leftbar {
         width: 262px;
         padding-bottom: 60px;
-        background: #FAFAFA;
+        background: $alabaster;
         border-radius: 3px 0px 3px 3px;
 
 
@@ -28,8 +28,8 @@
         }
 
         .leftbar-list {
-            background: #FAFAFA;
-            box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.14), 0px -1px 0px #DEDEDE;
+            background: $alabaster;
+            box-shadow: 0px 1px 0px rgba($text-color--black, 0.14), 0px -1px 0px $alto;
         }
 
         .leftbar-list--active {
@@ -55,7 +55,7 @@
         }
 
         .title1 {
-            color: #EC407A;
+            color: $french-rose;
             font-weight: bold;
 
         }
@@ -73,7 +73,7 @@
     .rightbar {
         width: 588px;
         background: $primary-color;
-        box-shadow: -1px 0px 0px #E2E2E2;
+        box-shadow: -1px 0px 0px $mercury;
         border-radius: 0px 3px 3px 0px;
         padding-top: 29px;
         padding-left: 29px;
