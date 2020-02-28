@@ -1,0 +1,26 @@
+.add-target-form {
+    width: 1143px;
+    padding-left: 0;
+}
+
+.add-target-form__left {
+    width: 262px;
+    background: $alabaster;
+    box-shadow: 1px 0px 0px rgba($text-color--black, 0.14);
+    border-radius: 0px;
+
+    .add-target-left__header {
+        margin-bottom: 24px;
+
+        h2 {
+            margin-left: 24px;
+            margin-top: 40px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 20px;
+            color: $text-color--black;
+
+        }
+    }
+}

@@ -1,0 +1,102 @@
+.add-target__menu-card {
+    box-shadow: 0px 1px 0px rgba($text-color--black, 0.14), 0px -1px 0px $alto;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    .add-target-menu-card-active__content {
+        display: none;
+    }
+
+    .menu-card__content {
+        margin-left: 24px;
+        width: 260px;
+        justify-content: space-between;
+
+        h3 {
+            width: 196px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+
+            letter-spacing: 0.4px;
+
+            color: $text-color--black;
+
+            align-self: center;
+
+            overflow: hidden;
+        }
+
+        .menu-card__content-image {
+            align-self: center;
+            margin-right: 16px;
+            width: 18px;
+            height: 18px;
+            background: url(../../images/add-target-form/arrow_drop_down_3.png) no-repeat;
+        }
+
+    }
+}
+
+.add-target__menu-card--active {
+    background-color: $primary-color;
+
+    .add-target-menu-card-active__content {
+        display: flex;
+    }
+
+    .menu-card__content {
+        margin-bottom: 12px;
+
+        h3 {
+            color: $french-rose
+        }
+
+        .menu-card__content-image {
+
+            background: url(../../images/add-target-form/ic_arrow_drop_down_24px.png) no-repeat;
+        }
+    }
+
+}
+
+.add-target__menu-card--active {
+    .menu-card__content {
+        h3 {
+            font-weight: bold;
+        }
+    }
+}
+
+.add-target-menu-card-active__content {
+    background: $alabaster;
+
+    align-items: center;
+
+
+    .menu-card-active-content__icon {
+        margin-top: 24px;
+        margin-left: 24px;
+        width: 12px;
+        height: auto;
+    }
+
+    .menu-card-active-content__value {
+        margin-top: 24px;
+        margin-left: 12px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+
+        color: $text-color--black;
+
+    }
+
+    .color-blue-ribbion {
+        color: $blue-ribbion;
+        margin-bottom: 24px;
+    }
+}

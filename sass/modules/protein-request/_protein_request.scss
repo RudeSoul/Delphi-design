@@ -1,0 +1,323 @@
+.protein-request {
+    width: 798px;
+
+    margin-top: 20px; //remove this later
+    margin-left: 20px; //remove this later
+    padding-bottom: 24px;
+
+    background: $primary-color;
+    box-shadow: 0px 1px 8px rgba($text-color--black, 0.2),
+        0px 3px 3px rgba($text-color--black, 0.12),
+        0px 3px 4px rgba($text-color--black, 0.14);
+}
+
+.protein-request__header {
+    padding-top: 24px;
+    padding-left: 24px;
+
+    h1 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: $text-color--black;
+    }
+}
+
+.protein-request__general-info {
+    margin-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 34px;
+    width: 750px;
+
+
+
+    box-shadow: 0px 2px 6px rgba($text-color--black, 0.102874);
+    border-radius: 3px;
+
+    .general-info__header {
+        margin-top: 24px;
+        margin-left: 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 20px;
+
+        color: $text-color--black;
+
+    }
+
+}
+
+
+.general-info__inputfield {
+    flex-direction: column;
+    width: 286px;
+
+
+    .inputfield__label {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+
+        color: $dove-gray;
+    }
+
+    .inputfield__rect {
+        margin-top: 32px;
+        width: 100%;
+        background: $Silver-Chalice;
+    }
+}
+
+.inputfield__card-1 {
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+.inputfield__card-2 {
+    margin-top: 16px;
+    margin-left: 12px;
+}
+
+.inputfield__card-3 {
+    width: 584px;
+    margin-top: 16px;
+    margin-left: 24px;
+
+    .inputfield__rect {
+        margin-top: 76px;
+    }
+}
+
+.inputfield__card-4 {
+    width: 184px;
+    margin-top: 6px;
+    margin-left: 24px;
+
+    .dropdown-icon {
+        height: 16px;
+        width: 16px;
+        align-self: flex-end;
+        margin-top: 8px;
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .inputfield__rect {
+        margin-top: 8px;
+    }
+}
+
+.inputfield__card-5 {
+    width: 184px;
+    margin-left: 16px;
+    margin-top: 6px;
+}
+
+.inputfield__card-6 {
+    width: 184px;
+    margin-top: 6px;
+    margin-left: 16px;
+
+    .dropdown-icon {
+        height: 16px;
+        width: 16px;
+        align-self: flex-end;
+        margin-top: 8px;
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .inputfield__rect {
+        margin-top: 8px;
+    }
+}
+
+.general-info__lunchicon {
+    width: 24px;
+    height: 24px;
+    margin-top: 28px;
+    margin-left: 18px;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+.protein-request__additional-info {
+    width: 750px;
+    margin-top: 20px;
+    padding-top: 18px;
+    margin-left: 24px;
+    padding-bottom: 24px;
+    box-shadow: 0px 2px 6px rgba($text-color--black, 0.102874);
+    border-radius: 3px;
+}
+
+.additional-info__heading {
+    margin-left: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: $text-color--black;
+}
+
+.additional-info__inputfield {
+    width: 344px;
+    margin-top: 18px;
+
+    .inputfield__label {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        color: rgba($dove-gray, 0.45);
+
+    }
+
+    .inputfield__rect {
+        margin-top: 8px;
+        width: 100%;
+        background: rgba($dove-gray, 0.45);
+
+    }
+}
+
+.additional-info__card-1 {
+    margin-left: 24px;
+
+}
+
+.additional-info__card-2 {
+    margin-left: 16px;
+}
+
+.additional-info__checkbox {
+    width: 100%;
+    margin-top: 24px;
+    margin-left: 24px;
+
+    span {
+        margin-left: 8px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        align-self: center;
+    }
+}
+
+.checkbox__card-2 {
+    margin-left: 32px;
+}
+
+.additional-info__radio-btn {
+    width: 100%;
+    margin-top: 24px;
+    margin-left: 24px;
+
+
+    h3 {
+        margin-bottom: 18px;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: $blue-ribbion;
+    }
+
+    .radio-btn__label {
+        margin-left: 8px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+
+    }
+
+    .radio-btn__icon {
+        span {
+            visibility: hidden;
+        }
+
+        width: 20px;
+        height: 20px;
+        background: url(../../images/protein-request/ic_radio_button_unchecked_24px.png);
+    }
+
+    .radio-btn__icon--active {
+        background: url(../../images/protein-request/ic_radio_button_checked_24px.png);
+    }
+
+}
+
+.radio-btn__card-1 {
+    align-items: center;
+
+}
+
+.radio-btn__card-2 {
+    align-items: center;
+    margin-left: 36px;
+}
+
+.radio-btn__card-3 {
+    align-items: center;
+    margin-left: 36px;
+}
+
+.protein-request__date-form {
+    // margin-left: 24px;
+    margin-top: 16px;
+    width: 341px;
+
+    .inputfield__card-4 {
+        width: 341px;
+        margin-top: 0px;
+
+        .dropdown-icon {
+            margin-top: 8px;
+        }
+    }
+
+}
+
+.rect-btn {
+    margin-left: 24px;
+    margin-top: 24px;
+
+    .value {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.french-rose--btn {
+    background: $french-rose;
+}
+
+.default--btn {
+    background: $catsill-white;
+
+    .value {
+        color: $text-color--black;
+    }
+}

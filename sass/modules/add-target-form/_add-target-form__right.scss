@@ -1,0 +1,311 @@
+.add-target-right__header {
+    margin-top: 36px;
+    margin-left: 30px;
+
+    h1 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: $text-color--black;
+
+    }
+}
+
+.add-target-right__body {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.add-target__menu-form {
+    .form-btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: $dove-gray;
+    }
+
+    .label {
+        margin: 17px 31px;
+    }
+
+    .form--active {
+        color: $amaranth;
+        border-bottom: 2px solid $amaranth;
+    }
+}
+
+.add-target-right__body {
+    width: 850px;
+
+    .rectangle {
+        position: absolute;
+        margin-top: 30px;
+        height: 10px;
+        border-radius: 14px;
+        width: 823px;
+        background: $catsill-white;
+    }
+
+    .yellow-rectangle {
+        position: absolute;
+        width: 203.33px;
+        background: $selective-yellow;
+        margin-left: 14px;
+    }
+
+    .electric-rectangle {
+        position: absolute;
+        width: 418.76px;
+        background: $electric-violet;
+        margin-left: 250px;
+    }
+
+    .add-target-form__indicator {
+        margin-top: 56px;
+        align-items: center;
+
+    }
+
+    .circular-indicator--selective-yellow {
+        background: $selective-yellow;
+
+    }
+
+    .circular-indicator--electric-violet {
+        background: $electric-violet;
+        margin-left: 30px;
+    }
+
+    .label-circular-indicator {
+
+        margin-left: 8px;
+    }
+
+    .rect-btn {
+        margin-left: 10px;
+        margin-top: 20px;
+
+        .value {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    .selective-yellow--btn {
+        background: $selective-yellow;
+    }
+
+    .pastel-green--btn {
+        background: $pastel-green;
+    }
+
+    .royal-heath--btn {
+        background: $royal-heath;
+    }
+
+    .doger-blue--btn {
+        background: $doger-blue;
+    }
+
+    .electric-violet--btn {
+        background: $electric-violet;
+    }
+
+    .french-rose--btn {
+        background: $french-rose;
+    }
+
+    .default--btn {
+        background: $catsill-white;
+
+        .value {
+            color: $text-color--black;
+        }
+    }
+
+    .killarney--btn {
+        background: $killarney;
+        ;
+    }
+
+}
+
+
+
+.add-target__form {
+    border-right: 1px solid $catsill-white;
+    // padding-right: 20px;
+    width: 370px;
+    margin-top: 30px;
+
+    .add-target__form--width-l {
+
+        width: 340px;
+
+
+    }
+
+    .add-target__form--width-s {
+
+        width: 165px;
+
+
+    }
+
+    .form__components {
+        margin-top: 40px;
+    }
+
+    .label {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+
+        letter-spacing: 0.4px;
+
+        color: #616161;
+    }
+
+    .placeholder {
+        margin-top: 5px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+
+        color: #212121;
+    }
+
+
+    .form-rectangle {
+        margin-top: 16px;
+        height: 1px;
+        background: $Silver-Chalice;
+        border-radius: 14px;
+    }
+
+    .form__components--add-icon {
+        position: relative;
+    }
+
+    .add-icon {
+        position: absolute;
+
+        right: 0px;
+        bottom: 16px;
+
+        img {
+            height: 18px;
+            width: 18px;
+        }
+
+
+
+
+    }
+
+    .add-target-form__btns {
+        // width: 62px;
+        align-items: center;
+
+        .image {
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+    }
+
+    .bg--shamrock {
+        background: $shamrock;
+
+    }
+
+    .bg--electric-violet {
+        background: $electric-violet;
+
+    }
+
+    .bg--blaze-orange {
+        background: $blaze-orange;
+
+    }
+
+    .bg--turquoise {
+        background: $turquoise;
+
+    }
+
+    .bg--azure-radiance {
+        background: $azure-radiance;
+    }
+
+    .add-target-form__checkboxes {
+        margin-top: 24px;
+    }
+
+    .horizontal__rect {
+        position: absolute;
+        width: 874.85px;
+        height: 1.19px;
+        // left: 365.37px;
+        right: 156px;
+        top: 760px;
+        // bottom: 0;
+
+        border: 1px solid #EFF2F7;
+        transform: rotate(90.08deg);
+    }
+}
+
+.add-target-form__details {
+    width: 480px;
+
+    .structural-biological-image {
+        width: 438px;
+        height: 434px;
+        margin-left: 50px;
+        background: url(../../images/add-target-form/Bitmap.png);
+        background-repeat: no-repeat;
+    }
+
+    .killarney--btn {
+        height: 36px;
+        // margin-top: -240px;
+        margin-top: 0px;
+        margin-left: 296px;
+
+    }
+
+    .indicator {
+
+        margin-left: 20px;
+
+    }
+
+    .unknown-data {
+        width: 473px;
+        height: 300px;
+        // margin-top: -370px;
+        margin-top: 20px;
+        background: url(../../images/add-target-form/Bitmap1.png);
+        background-repeat: no-repeat;
+    }
+
+
+    .add-target-form__indicator {
+        // margin-top: -250px;
+        margin-top: 10px;
+        height: 14px;
+    }
+
+    .rectangle {
+        width: 447px;
+        height: 1px;
+    }
+}
