@@ -2542,6 +2542,16 @@ span {
   height: 990px;
 }
 
+.target-form__save-btn {
+  width: 116px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .target-form__mainbody {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
